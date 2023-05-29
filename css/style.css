@@ -1,0 +1,166 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Rufina';
+}
+
+a {
+    text-decoration: none;
+}
+
+section img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 232, 200);
+}
+
+.header h1 {
+    padding-left: 20px;
+}
+
+nav {
+    padding-right: 50px;
+    font-size: 1.2rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-right: 80px;
+
+}
+
+.menu li {
+    color: black;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+hr {
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.titulosecao {
+    margin-left: 50px;
+}
+
+main {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: rgb(244, 241, 234);
+}
+
+.resumo {
+    margin-top: 0 auto;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulosecao {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+#imgresumo {
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+#imgresumo img {
+    width: 95%;
+    height: 95%;
+}
+
+#txtresumo {
+    padding-right: 80px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.livros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: end;
+    grid-auto-rows: 380px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.livros img {
+    width: 240px;
+    height: 345px;
+}
+
+.livros p {}
+
+.livros p a {
+    color: black;
+    text-decoration: underline;
+}
+
+.livro1a4 {
+    width: 240px;
+    align-items: center;
+}
+
+.livros h2 {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: rgb(97, 107, 169);
+    color: lightgray;
+    padding-top: 15px;
+}
+
+.autor {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#imgautor {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 20px 20px 50px;
+    width: 300px;
+    height: 200px;
+}
+
+#txtautor {
+    padding-top: 60px;
+    padding-right: 100px;
+}
+
+#txtautor {
+    font-size: 1.2rem;
+}
